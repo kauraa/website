@@ -8,7 +8,7 @@ const ErrorPage = ({ code, message }) => {
     
     return <>
         <Head>
-            <title>{code} | MusicMaker</title>
+            <title>{code} | Spidizm</title>
         </Head>
 
         <div className="max-w-7xl text-center py-20 mx-auto">
@@ -24,7 +24,7 @@ const ErrorPage = ({ code, message }) => {
                     router.back();
                 }}
             >
-                {clicked ? <i className="fad fa-spinner-third fa-spin text-white" /> : <><i className='fa fa-arrow-left mr-2' />Go Back</>}
+                {clicked ? <i className="fad fa-spinner-third fa-spin text-white" /> : <><i className='fa fa-arrow-left mr-2' />Geri Dön</>}
             </button>
         </div>
     </>
